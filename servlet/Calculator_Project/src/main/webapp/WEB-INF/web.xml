@@ -1,0 +1,73 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <servlet>      
+  	<servlet-name>add</servlet-name>
+  	<servlet-class>com.jsp.servlet.calculator.AddNumberServlet</servlet-class>	
+  </servlet>
+  
+  <servlet>      
+  	<servlet-name>addMobile</servlet-name>
+  	<servlet-class>com.jsp.servlet.calculator.AddMobileServlet</servlet-class>	
+  </servlet>
+  
+  <servlet>      
+  	<servlet-name>sub</servlet-name>
+  	<servlet-class>com.jsp.servlet.calculator.subtractNumberServlet</servlet-class>	
+  </servlet>
+  <servlet>  
+      
+  	<servlet-name>mul</servlet-name>
+  	<servlet-class>com.jsp.servlet.calculator.MultiplyNumberServlet</servlet-class>	
+  </servlet>
+  
+    <servlet>      
+  	<servlet-name>div</servlet-name>
+  	<servlet-class>com.jsp.servlet.calculator.divisionNumberservlet</servlet-class>	
+  </servlet>
+  
+  <servlet>      
+  	<servlet-name>mod</servlet-name>
+  	<servlet-class>com.jsp.servlet.calculator.modulusNumberServlet</servlet-class>	
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>add</servlet-name>
+  <url-pattern>/Add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>sub</servlet-name>
+  <url-pattern>/Sub</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet-mapping>
+  <servlet-name>mul</servlet-name>
+  <url-pattern>/Mul</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet-mapping>
+  <servlet-name>div</servlet-name>
+  <url-pattern>/Div</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>addMobile</servlet-name>
+  <url-pattern>/add-mobile</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  <servlet-name>mod</servlet-name>
+  <url-pattern>/Mod</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
+
+ 
+
+
